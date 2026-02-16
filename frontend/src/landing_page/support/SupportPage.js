@@ -9,10 +9,15 @@ import Footer from "../Footer";
 function PricingPage() {
   return (
     <>
+      <Navbar />
+
       <Hero />
       <CreateTicket />
+
+      <Footer />
     </>
   );
 }
 
 export default PricingPage;
+
